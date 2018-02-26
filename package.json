@@ -2,10 +2,15 @@
   "name": "auth-bc",
   "version": "1.0.0",
   "description": "authorization and blockchain testing",
-  "main": "app.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "BJS",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.7"
+  }
 }
